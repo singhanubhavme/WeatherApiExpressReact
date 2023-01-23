@@ -1,0 +1,182 @@
+[
+  {
+    "city": "Tokyo",
+    "lat": 35.6839,
+    "lng": 139.7744,
+    "country": "Japan"
+  },
+  {
+    "city": "Jakarta",
+    "lat": -6.2146,
+    "lng": 106.8451,
+    "country": "Indonesia"
+  },
+  {
+    "city": "Delhi",
+    "lat": 28.6667,
+    "lng": 77.2167,
+    "country": "India"
+  },
+  {
+    "city": "São Paulo",
+    "lat": -23.5504,
+    "lng": -46.6339,
+    "country": "Brazil"
+  },
+  {
+    "city": "Seoul",
+    "lat": 37.56,
+    "lng": 126.99,
+    "country": "South Korea"
+  },
+  {
+    "city": "Mumbai",
+    "lat": 19.0758,
+    "lng": 72.8775,
+    "country": "India"
+  },
+  {
+    "city": "Shanghai",
+    "lat": 31.1667,
+    "lng": 121.4667,
+    "country": "China"
+  },
+  {
+    "city": "Mexico City",
+    "lat": 19.4333,
+    "lng": -99.1333,
+    "country": "Mexico"
+  },
+  {
+    "city": "Cairo",
+    "lat": 30.0444,
+    "lng": 31.2358,
+    "country": "Egypt"
+  },
+  {
+    "city": "Beijing",
+    "lat": 39.904,
+    "lng": 116.4075,
+    "country": "China"
+  },
+  {
+    "city": "New York",
+    "lat": 40.6943,
+    "lng": -73.9249,
+    "country": "United States"
+  },
+  {
+    "city": "Kolkāta",
+    "lat": 22.5727,
+    "lng": 88.3639,
+    "country": "India"
+  },
+  {
+    "city": "Moscow",
+    "lat": 55.7558,
+    "lng": 37.6178,
+    "country": "Russia"
+  },
+  {
+    "city": "Bangkok",
+    "lat": 13.75,
+    "lng": 100.5167,
+    "country": "Thailand"
+  },
+  {
+    "city": "Dhaka",
+    "lat": 23.7289,
+    "lng": 90.3944,
+    "country": "Bangladesh"
+  },
+  {
+    "city": "Buenos Aires",
+    "lat": -34.5997,
+    "lng": -58.3819,
+    "country": "Argentina"
+  },
+  {
+    "city": "Ōsaka",
+    "lat": 34.752,
+    "lng": 135.4582,
+    "country": "Japan"
+  },
+  {
+    "city": "Lagos",
+    "lat": 6.45,
+    "lng": 3.4,
+    "country": "Nigeria"
+  },
+  {
+    "city": "Istanbul",
+    "lat": 41.01,
+    "lng": 28.9603,
+    "country": "Turkey"
+  },
+  {
+    "city": "Karachi",
+    "lat": 24.86,
+    "lng": 67.01,
+    "country": "Pakistan"
+  },
+  {
+    "city": "Kinshasa",
+    "lat": -4.3317,
+    "lng": 15.3139,
+    "country": "Congo (Kinshasa)"
+  },
+  {
+    "city": "Shenzhen",
+    "lat": 22.535,
+    "lng": 114.054,
+    "country": "China"
+  },
+  {
+    "city": "Bangalore",
+    "lat": 12.9791,
+    "lng": 77.5913,
+    "country": "India"
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "lat": 10.8167,
+    "lng": 106.6333,
+    "country": "Vietnam"
+  },
+  {
+    "city": "Tehran",
+    "lat": 35.7,
+    "lng": 51.4167,
+    "country": "Iran"
+  },
+  {
+    "city": "Los Angeles",
+    "lat": 34.1139,
+    "lng": -118.4068,
+    "country": "United States"
+  },
+  {
+    "city": "Rio de Janeiro",
+    "lat": -22.9083,
+    "lng": -43.1964,
+    "country": "Brazil"
+  },
+  {
+    "city": "Chengdu",
+    "lat": 30.66,
+    "lng": 104.0633,
+    "country": "China"
+  },
+  {
+    "city": "Baoding",
+    "lat": 38.8671,
+    "lng": 115.4845,
+    "country": "China"
+  },
+  {
+    "city": "London",
+    "lat": 51.5072,
+    "lng": -0.1275,
+    "country": "United Kingdom"
+  }
+]
