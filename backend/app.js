@@ -12,7 +12,7 @@ app.use(cors({
 }))
 
 const Cities = require('./Cities.json');
-
+const OPENWEATHER_URL = `https://api.openweathermap.org/data/2.5/weather`;
 const API_KEY = process.env.API_KEY;
 
 const getPagination = (page) => {
@@ -29,7 +29,7 @@ app.get("/getAllCities", (req, res) => {
 app.get("/getWeatherInfo/:lat/:lng", async (req, res) => {
     const { lat, lng } = req.params;
     const data = await axios
-        .get(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=${API_KEY}`);
+        .get(`${OPENWEATHER_URL}?lat=${lat}&lon=${lng}&appid=${API_KEY}`);
     res.json(data.data);
 });
 
@@ -42,7 +42,7 @@ app.get("/getWeather/:page", async (req, res) => {
         lat = Cities[i].lat;
         lng = Cities[i].lng;
         data = await axios
-            .get(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=${API_KEY}`);
+            .get(`${OPENWEATHER_URL}?lat=${lat}&lon=${lng}&appid=${API_KEY}`);
         result.push(data.data);
     }
     res.json(result);

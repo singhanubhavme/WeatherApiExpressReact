@@ -1,27 +1,30 @@
 import React from "react";
+
 let indexes = [];
+
 const WeatherData = ({ data, page }) => {
     let initialPage = page === 1 ? 1 : page === 2 ? 11 : 21;
     for (let i = 0; i < 10; i++) {
         indexes[i] = initialPage++;
     }
+    const regionNames = new Intl.DisplayNames(
+        ['en'], { type: 'region' }
+    );
     return (
         <div style={{ paddingTop: '40px' }}>
             <h3 className="p-3 text-center">Locations</h3>
-            <table className="table table-striped table-bordered"
+            <table className="table table-striped table-bordered m-auto"
                 style={{
-                    overflowY: "auto",
-                    tableLayout: "fixed",
                     wordWrap: "break-word",
-                    marginBottom: "10px",
+                    width: "95%"
                 }}
             >
                 <thead>
                     <tr>
-                        <th style={{ width: "6vw" }}>Index</th>
-                        <th style={{ width: "7vw" }}>Location</th>
-                        <th style={{ width: "7vw" }}>Country</th>
-                        <th style={{ width: "7vw" }}>Geo</th>
+                        <th>Index</th>
+                        <th>Location</th>
+                        <th>Country</th>
+                        <th>Geo</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -29,7 +32,7 @@ const WeatherData = ({ data, page }) => {
                         <tr key={indexes[index]}>
                             <td>{indexes[index]}</td>
                             <td>{weather.name}</td>
-                            <td>{weather.sys.country}</td>
+                            <td>{regionNames.of(weather.sys.country)}</td>
                             <td>
                                 Latitude : {weather.coord.lat}
                                 <br />

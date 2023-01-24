@@ -1,0 +1,42 @@
+.weather-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    padding-top: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.line1 {
+    font-size: 1.4em;
+}
+
+.line2 {
+    font-size: 1em;
+}
+
+.temp {
+    font-size: 2em;
+}
+
+.weather-text {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.visibility-km,
+.wind-speed {
+    font-size: 1.2em;
+}
+
+img {
+    padding-right: 2em;
+    margin-right: 1em;
+    width: 150%;
+    height: auto;
+}
