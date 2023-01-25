@@ -7,9 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use(cors({
-    origin: '*'
-}))
+app.use(cors({ origin: '*' }));
 
 const Cities = require('./Cities.json');
 const OPENWEATHER_URL = `https://api.openweathermap.org/data/2.5/weather`;
